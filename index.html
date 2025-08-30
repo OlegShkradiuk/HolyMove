@@ -1,165 +1,264 @@
-<!doctype html>
-<html lang="ru" data-theme="light">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Holy Move — Перевозки по США</title>
-  <meta name="description" content="Транспортная компания Holy Move: грузоперевозки по США. Быстро, надежно, прозрачно." />
-  <link rel="icon" href="assets/logo.jpg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main">Пропустить к содержимому</a>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Holy Move — Trucking Across the USA</title>
+    <meta
+      name="description"
+      content="Holy Move trucking company: nationwide freight transport across the USA. Fast, reliable, transparent."
+    />
+    <link rel="icon" href="assets/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="header container">
-    <div class="brand">
-      <img src="assets/logo.jpg" alt="Логотип Holy Move" class="brand__logo" />
-      <div class="brand__text">
-        <strong class="brand__name">Holy Move</strong>
-        <span class="brand__tag">Trucking USA</span>
-      </div>
-    </div>
-
-    <nav class="nav" aria-label="Главная навигация">
-      <a href="#services" class="nav__link">Услуги</a>
-      <a href="#how" class="nav__link">Как это работает</a>
-      <a href="#quote" class="nav__link">Расчет стоимости</a>
-      <a href="#contact" class="nav__link">Контакты</a>
-    </nav>
-
-    <div class="actions">
-      <button class="btn btn--ghost" id="themeToggle" aria-pressed="false" aria-label="Переключить тему">🌓</button>
-      <a href="#quote" class="btn btn--primary">Получить расчет</a>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero container">
-      <div class="hero__content">
-        <h1 class="hero__title">Надёжные перевозки по всей Америке</h1>
-        <p class="hero__subtitle">FTL / LTL, рефрижераторы, flatbed, expedited. Онлайн‑трекер, прозрачные цены, связь 24/7.</p>
-        <div class="hero__cta">
-          <a href="#quote" class="btn btn--primary btn--lg">Рассчитать стоимость</a>
-          <a href="#contact" class="btn btn--secondary btn--lg">Связаться с нами</a>
+    <header class="header container">
+      <div class="brand">
+        <img src="assets/logo.jpg" alt="Holy Move Logo" class="brand__logo" />
+        <div class="brand__text">
+          <strong class="brand__name">Holy Move</strong>
+          <span class="brand__tag">Trucking USA</span>
         </div>
       </div>
-      <div class="hero__art" aria-hidden="true"></div>
-    </section>
 
-    <section id="services" class="container section">
-      <h2 class="section__title">Услуги</h2>
-      <div class="grid cards">
-        <article class="card">
-          <h3 class="card__title">Грузоперевозки по США</h3>
-          <p class="card__text">Полные и сборные перевозки (FTL/LTL) по всем штатам. Помощь с документами и страхованием.</p>
-        </article>
-        <article class="card">
-          <h3 class="card__title">Температурный режим</h3>
-          <p class="card__text">Рефрижераторы и изотермические кузова. Поддерживаем температурные требования на всём пути.</p>
-        </article>
-        <article class="card">
-          <h3 class="card__title">Flatbed / Oversize</h3>
-          <p class="card__text">Негабаритные и тяжёлые грузы. Маршрутизация, пилот‑кары, разрешения.</p>
-        </article>
-        <article class="card">
-          <h3 class="card__title">Экспедирование и склад</h3>
-          <p class="card__text">Кросс‑докинг, кратковременное хранение, консолидация и экспедирование «под ключ».</p>
-        </article>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#how" class="nav__link">How it Works</a>
+        <a href="#quote" class="nav__link">Get a Quote</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button
+          class="btn btn--ghost"
+          id="themeToggle"
+          aria-pressed="false"
+          aria-label="Toggle theme"
+        >
+          🌓
+        </button>
+        <a href="#quote" class="btn btn--primary">Request Quote</a>
       </div>
-    </section>
+    </header>
 
-    <section id="how" class="container section">
-      <h2 class="section__title">Как это работает</h2>
-      <ol class="steps">
-        <li class="steps__item"><span class="steps__num">1</span>Оставляете заявку с данными груза</li>
-        <li class="steps__item"><span class="steps__num">2</span>Получаете точную цену и сроки</li>
-        <li class="steps__item"><span class="steps__num">3</span>Отслеживаете доставку в онлайн‑кабинете</li>
-        <li class="steps__item"><span class="steps__num">4</span>Принимаете груз и подписываете документы</li>
-      </ol>
-    </section>
-
-    <section id="quote" class="container section">
-      <h2 class="section__title">Быстрый расчет</h2>
-      <form class="form" id="quoteForm" novalidate>
-        <div class="form__row">
-          <label class="form__label" for="name">Имя</label>
-          <input class="form__input" type="text" id="name" name="name" placeholder="Ваше имя" required />
-          <small class="form__error" data-for="name"></small>
-        </div>
-
-        <div class="form__row">
-          <label class="form__label" for="phone">Телефон</label>
-          <input class="form__input" type="tel" id="phone" name="phone" placeholder="+1 (___) ___‑____" required />
-          <small class="form__error" data-for="phone"></small>
-        </div>
-
-        <div class="form__grid">
-          <div class="form__row">
-            <label class="form__label" for="from">Откуда</label>
-            <input class="form__input" type="text" id="from" name="from" placeholder="Город, штат" required />
-            <small class="form__error" data-for="from"></small>
-          </div>
-          <div class="form__row">
-            <label class="form__label" for="to">Куда</label>
-            <input class="form__input" type="text" id="to" name="to" placeholder="Город, штат" required />
-            <small class="form__error" data-for="to"></small>
-          </div>
-          <div class="form__row">
-            <label class="form__label" for="weight">Вес, lb</label>
-            <input class="form__input" type="number" id="weight" name="weight" min="1" step="1" placeholder="Например, 2000" required />
-            <small class="form__error" data-for="weight"></small>
-          </div>
-          <div class="form__row">
-            <label class="form__label" for="type">Тип кузова</label>
-            <select class="form__input" id="type" name="type" required>
-              <option value="">Выберите…</option>
-              <option>Dry Van</option>
-              <option>Reefer</option>
-              <option>Flatbed</option>
-              <option>Step Deck</option>
-              <option>Box Truck</option>
-              <option>Expedited</option>
-            </select>
-            <small class="form__error" data-for="type"></small>
+    <main id="main">
+      <section class="hero container">
+        <div class="hero__content">
+          <h1 class="hero__title">Reliable Trucking Across America</h1>
+          <p class="hero__subtitle">
+            FTL / LTL, refrigerated, flatbed, expedited. Online tracking,
+            transparent pricing, 24/7 support.
+          </p>
+          <div class="hero__cta">
+            <a href="#quote" class="btn btn--primary btn--lg">Get a Quote</a>
+            <a href="#contact" class="btn btn--secondary btn--lg">Contact Us</a>
           </div>
         </div>
+        <div class="hero__art" aria-hidden="true"></div>
+      </section>
 
-        <div class="form__row">
-          <label class="form__label" for="notes">Комментарий</label>
-          <textarea class="form__input" id="notes" name="notes" rows="3" placeholder="Опишите габариты, требования, сроки…"></textarea>
+      <section id="services" class="container section">
+        <h2 class="section__title">Services</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3 class="card__title">Nationwide Freight</h3>
+            <p class="card__text">
+              Full truckload and less-than-truckload (FTL/LTL) across all
+              states. Assistance with paperwork and insurance.
+            </p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Refrigerated Transport</h3>
+            <p class="card__text">
+              Reefers and insulated trucks. We maintain strict temperature
+              requirements throughout the journey.
+            </p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Flatbed / Oversize</h3>
+            <p class="card__text">
+              Heavy and oversized cargo. Route planning, escort vehicles,
+              permits.
+            </p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Warehousing & Logistics</h3>
+            <p class="card__text">
+              Cross-docking, short-term storage, consolidation, and end-to-end
+              logistics solutions.
+            </p>
+          </article>
         </div>
+      </section>
 
-        <div class="form__actions">
-          <button type="submit" class="btn btn--primary">Отправить заявку</button>
-          <span id="formStatus" role="status" aria-live="polite" class="form__status"></span>
+      <section id="how" class="container section">
+        <h2 class="section__title">How it Works</h2>
+        <ol class="steps">
+          <li class="steps__item">
+            <span class="steps__num">1</span>Submit a request with cargo details
+          </li>
+          <li class="steps__item">
+            <span class="steps__num">2</span>Receive an exact quote and delivery
+            time
+          </li>
+          <li class="steps__item">
+            <span class="steps__num">3</span>Track delivery in your online
+            account
+          </li>
+          <li class="steps__item">
+            <span class="steps__num">4</span>Accept the cargo and sign the
+            paperwork
+          </li>
+        </ol>
+      </section>
+
+      <section id="quote" class="container section">
+        <h2 class="section__title">Quick Quote</h2>
+        <form class="form" id="quoteForm" novalidate>
+          <div class="form__row">
+            <label class="form__label" for="name">Name</label>
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <small class="form__error" data-for="name"></small>
+          </div>
+
+          <div class="form__row">
+            <label class="form__label" for="phone">Phone</label>
+            <input
+              class="form__input"
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+1 (___) ___‑____"
+              required
+            />
+            <small class="form__error" data-for="phone"></small>
+          </div>
+
+          <div class="form__grid">
+            <div class="form__row">
+              <label class="form__label" for="from">From</label>
+              <input
+                class="form__input"
+                type="text"
+                id="from"
+                name="from"
+                placeholder="City, State"
+                required
+              />
+              <small class="form__error" data-for="from"></small>
+            </div>
+            <div class="form__row">
+              <label class="form__label" for="to">To</label>
+              <input
+                class="form__input"
+                type="text"
+                id="to"
+                name="to"
+                placeholder="City, State"
+                required
+              />
+              <small class="form__error" data-for="to"></small>
+            </div>
+            <div class="form__row">
+              <label class="form__label" for="weight">Weight, lb</label>
+              <input
+                class="form__input"
+                type="number"
+                id="weight"
+                name="weight"
+                min="1"
+                step="1"
+                placeholder="e.g., 2000"
+                required
+              />
+              <small class="form__error" data-for="weight"></small>
+            </div>
+            <div class="form__row">
+              <label class="form__label" for="type">Trailer type</label>
+              <select class="form__input" id="type" name="type" required>
+                <option value="">Select…</option>
+                <option>Dry Van</option>
+                <option>Reefer</option>
+                <option>Flatbed</option>
+                <option>Step Deck</option>
+                <option>Box Truck</option>
+                <option>Expedited</option>
+              </select>
+              <small class="form__error" data-for="type"></small>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <label class="form__label" for="notes">Notes</label>
+            <textarea
+              class="form__input"
+              id="notes"
+              name="notes"
+              rows="3"
+              placeholder="Dimensions, requirements, deadlines…"
+            ></textarea>
+          </div>
+
+          <div class="form__actions">
+            <button type="submit" class="btn btn--primary">
+              Submit Request
+            </button>
+            <span
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+              class="form__status"
+            ></span>
+          </div>
+        </form>
+      </section>
+
+      <section id="contact" class="container section">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact">
+          <div class="contact__info">
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+18885551234">+1 (888) 555‑1234</a>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:dispatch@holymove.com">dispatch@holymove.com</a>
+            </p>
+            <p><strong>Working Hours:</strong> 24/7</p>
+            <p class="muted">*Demo data, replace with your real contacts.</p>
+          </div>
+          <iframe
+            class="contact__map"
+            title="USA Map"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33584277.29671386!2d-113.7413109!3d36.2075006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b64b70f46a2b1f%3A0x363a7e4e3b4b1f0!2sUnited%20States!5e0!3m2!1sen!2sus!4v1710000000000"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-      </form>
-    </section>
+      </section>
+    </main>
 
-    <section id="contact" class="container section">
-      <h2 class="section__title">Контакты</h2>
-      <div class="contact">
-        <div class="contact__info">
-          <p><strong>Телефон:</strong> <a href="tel:+18885551234">+1 (888) 555‑1234</a></p>
-          <p><strong>Email:</strong> <a href="mailto:dispatch@holymove.com">dispatch@holymove.com</a></p>
-          <p><strong>Часы работы:</strong> 24/7</p>
-          <p class="muted">*Демо‑данные, замените на реальные.</p>
-        </div>
-        <iframe class="contact__map" title="Карта США" loading="lazy"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33584277.29671386!2d-113.7413109!3d36.2075006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b64b70f46a2b1f%3A0x363a7e4e3b4b1f0!2sUnited%20States!5e0!3m2!1sen!2sus!4v1710000000000"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-  </main>
+    <footer class="footer container">
+      <p>© <span id="year"></span> Holy Move. All rights reserved.</p>
+      <a href="#" class="muted">Privacy Policy</a>
+    </footer>
 
-  <footer class="footer container">
-    <p>© <span id="year"></span> Holy Move. Все права защищены.</p>
-    <a href="#" class="muted">Политика конфиденциальности</a>
-  </footer>
-
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
